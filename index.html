@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page Section</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .landing-section {
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+    }
+
+    .landing-content {
+      background-color: rgba(0, 0, 0, 0.5); /* Optional: dark overlay */
+      padding: 40px;
+      border-radius: 10px;
+    }
+
+    .landing-content h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .landing-content p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    .landing-content .cta-button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 28px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .landing-content .cta-button:hover {
+      background-color: #03995e;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="landing-section">
+    <div class="landing-content">
+      <h1>Welcome to India that is Bharat</h1>
+      <p>Your journey to excellence starts here. Let's build something amazing together.</p>
+      <a href="#get-started" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+</body>
+</html>
